@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { firstController } from "./controllers/FirstController";
+import { usersController } from "./apps/users/entry-points/api/UsersController";
 
 const router: Router = Router();
 
 // Routes
-router.get("/user", firstController.home);
+router.get("/user", usersController.home);
 
 export { router };
