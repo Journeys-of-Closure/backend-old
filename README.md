@@ -15,7 +15,7 @@
 
 ## Description
 
-This is a backend server under development for the Eternal Echoes project using Clean Architecture
+This is a backend server under development for the Journeys of Closure project.
 
 ## Installation
 
